@@ -155,3 +155,27 @@ body {
     pointer-events: none;
     z-index: 10; /* Ensure confetti is above other elements */
 }
+/* Lyrics Styling */
+.lyrics {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    background-color: rgba(138, 43, 226, 0.1); /* Light purple background */
+    padding: 1.5rem;
+    border-radius: 15px;
+    color: #4B0082;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-in-out;
+}
+/* style.css */
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} 
