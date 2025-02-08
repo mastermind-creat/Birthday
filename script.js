@@ -1,5 +1,5 @@
 // Countdown Timer Setup
-const countdownDate = new Date("Oct 21, 2024 00:00:00").getTime();
+const countdownDate = new Date("Feb 10, 2025 00:00:00").getTime();
 const countdownTimer = document.getElementById('countdown-timer');
 
 const timer = setInterval(function() {
